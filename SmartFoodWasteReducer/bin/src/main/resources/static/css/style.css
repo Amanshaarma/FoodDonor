@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;600&display=swap');
+
+:root{
+  --royal-blue:#0f2a6b;
+  --royal-gold:#d4af37;
+  --bg:#0b1b45;
+  --card:#0f214f;
+  --text:#e6ebf5;
+}
+
+body.royal-bg{min-height:100vh;margin:0;background:linear-gradient(135deg,var(--bg),#091431);color:var(--text);font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
+.header{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;background:linear-gradient(90deg,var(--royal-blue),#081c4a);border-bottom:1px solid rgba(212,175,55,.35)}
+.header h1{margin:0;font-family:'Playfair Display',serif;color:var(--royal-gold)}
+.header nav a{color:var(--text);margin-left:16px;text-decoration:none}
+.container{max-width:980px;margin:24px auto;padding:0 16px}
+.card{max-width:520px;margin:64px auto;background:linear-gradient(180deg,var(--card),#0a1a3d);padding:28px;border-radius:14px;box-shadow:0 12px 40px rgba(0,0,0,.35);border:1px solid rgba(212,175,55,.25)}
+.title{margin:0 0 8px;font-family:'Playfair Display',serif;color:var(--royal-gold)}
+.subtitle{margin:0 0 24px;color:#c9d4ef;font-weight:600}
+label{display:block;margin:14px 0 6px}
+input,select{width:100%;padding:12px 12px;border-radius:10px;border:1px solid #2b3c77;background:#0b1b45;color:var(--text)}
+.btn-primary{margin-top:18px;width:100%;padding:12px 16px;background:linear-gradient(90deg,var(--royal-gold),#f2d56b);border:0;border-radius:10px;color:#1a1a1a;font-weight:700;cursor:pointer}
+.muted{color:#a8b3cf}
+.panel{background:linear-gradient(180deg,var(--card),#0a1a3d);padding:18px;border-radius:12px;border:1px solid rgba(212,175,55,.25);margin-bottom:16px}
+.metric{font-size:28px;color:var(--royal-gold);font-family:'Playfair Display',serif}
+
+
